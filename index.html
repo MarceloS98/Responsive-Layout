@@ -4,9 +4,177 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/medium.css" media="(min-width: 700px)">
+    <link rel="stylesheet" href="/css/desktop.css" media="(min-width: 1000px)">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;900&family=Oswald:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>Responsive Layout</title>
 </head>
 <body>
-    
+    <!-- Header Starts -->
+    <header class="header">
+        <button class="nav-toggle" aria-label="open navigation">
+            <span class="hamburger"></span>
+        </button>
+        <span class="logo">CRL</span>
+        <nav class="nav">
+            <ul class="nav__list nav__list--primary">
+                <li class="nav__item"><a class="nav__link" href="#">Home</a></li>
+                <li class="nav__item"><a class="nav__link" href="#">About</a></li>
+                <li class="nav__item"><a class="nav__link" href="#">Contact</a></li>
+            </ul>
+            <ul class="nav__list nav__list--secondary">
+                <li class="nav__item"><a class="nav__link" href="#">Sign in</a></li>
+                <li class="nav__item"><a class="nav__link btn" href="#">Sign up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Starts -->
+    <main>
+        <!-- Section Hero starts -->
+        <section class="hero">
+            <div class="row container">
+                <div class="col">
+                    <h1 class="hero__title">Responsive layouts <span class="hero__title--gold">don't have to be a struggle</span></h1>
+                </div>
+                <div class="col">
+                    <p class="hero__text text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua</p>
+                    <a class="hero__btn btn" href="#">I want to learn</a>
+                </div>
+            </div>
+        </section>
+        <!-- Section Hero ends -->
+
+        <!-- Section Description starts -->
+        <section class="description">
+            <div class="row container">
+                <div class="col">
+                    <h4 class="description__title title">Mobile-first</h4>
+                    <p class="description__text text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                </div>
+                <div class="col">
+                    <h4 class="description__title title">Efficient</h4>
+                    <p class="description__text text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                </div>
+                <div class="col">
+                    <h4 class="description__title title">Done right</h4>
+                    <p class="description__text text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                </div>
+            </div>
+        </section>
+        <!-- Section Description ends -->
+
+        <!-- Section In-depth starts -->
+        <section class="in-depth">
+            <div class="container row">
+                <div class="col">
+                    <h3 class="in-depth__title title">It doesn't have to be so hard</h3>
+                    <p class="text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                        enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                        dolore magna aliqua. Ut enim ad minim veniam.
+                    </p>
+                    <div class="in-depth__img">
+                        <img src="/img/the-image.jpg" alt="wireframes">
+                    </div>
+                    <p class="text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                        enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                        dolore magna aliqua. Ut enim ad minim veniam
+                    </p>
+                </div>
+                <div class="col">
+                    <article class="card">
+                        <h3 class="card__title">Break it down</h3>
+                        <div class="line"></div>
+                        <p class="card__text text">
+                            Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua
+                        </p>
+                    </article>
+                    <article class="card">
+                        <h3 class="card__title">Work your way up</h3>
+                        <div class="line"></div>
+                        <p class="card__text text">
+                            Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua
+                        </p>
+                    </article>
+                    <article class="card">
+                        <h3 class="card__title">Example title</h3>
+                        <div class="line"></div>
+                        <p class="card__text text">
+                            Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!-- Section In-depth ends -->
+    </main>
+    <!-- Main ends -->
+
+    <!-- Footer Starts -->
+    <footer class="footer">
+        <div class="container">
+            <h2 class="footer__main-title title">Just scratching the surface</h2>
+            <div class="row">
+                <div class="col">
+                    <h5 class="footer__about-title title">About our company</h5>
+                    <p class="footer__about-text text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit, sed do eiusmod tempor incididunt ut labore et
+                        dolore magna aliqua. Ut enim ad minim veniam.
+                    </p>
+                </div>
+                <div class="col">
+                    <h5 class="footer__list-title title">Getting around</h5>
+                    <ul class="footer__list">
+                        <li class="footer__item"><a class="footer__link" href="#">Home</a></li>
+                        <li class="footer__item"><a class="footer__link" href="#">About</a></li>
+                        <li class="footer__item"><a class="footer__link" href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h5 class="footer__list-title title">Other things</h5>
+                    <ul class="footer__list">
+                        <li class="footer__item"><a class="footer__link" href="#">Lorem ipsum</a></li>
+                        <li class="footer__item"><a class="footer__link" href="#">dolor</a></li>
+                        <li class="footer__item"><a class="footer__link" href="#">sit amet</a></li>
+                        <li class="footer__item"><a class="footer__link" href="#">consectetur</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h5 class="footer__list-title title">And more</h5>
+                    <ul class="footer__list">
+                        <li class="footer__item"><a class="footer__link" href="#">Lorem ipsum</a></li>
+                        <li class="footer__item"><a class="footer__link" href="#">dolor</a></li>
+                        <li class="footer__item"><a class="footer__link" href="#">sit amet</a></li>
+                        <li class="footer__item"><a class="footer__link" href="#">consectetur</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/js/main.js"></script>
 </body>
 </html>

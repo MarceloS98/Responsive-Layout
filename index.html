@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/styles.css">
-    <link rel="stylesheet" href="/css/medium.css" media="(min-width: 700px)">
+    <link rel="stylesheet" href="/css/medium.css" media="(min-width: 800px)">
     <link rel="stylesheet" href="/css/desktop.css" media="(min-width: 1000px)">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,32 +15,34 @@
 <body>
     <!-- Header Starts -->
     <header class="header">
-        <button class="nav-toggle" aria-label="open navigation">
-            <span class="hamburger"></span>
-        </button>
-        <span class="logo">CRL</span>
-        <nav class="nav">
-            <ul class="nav__list nav__list--primary">
-                <li class="nav__item"><a class="nav__link" href="#">Home</a></li>
-                <li class="nav__item"><a class="nav__link" href="#">About</a></li>
-                <li class="nav__item"><a class="nav__link" href="#">Contact</a></li>
-            </ul>
-            <ul class="nav__list nav__list--secondary">
-                <li class="nav__item"><a class="nav__link" href="#">Sign in</a></li>
-                <li class="nav__item"><a class="nav__link btn" href="#">Sign up</a></li>
-            </ul>
-        </nav>
+        <div class="header__container">
+            <button class="nav-toggle" aria-label="open navigation">
+                <span class="hamburger"></span>
+            </button>
+            <span class="logo col">CRL</span>
+            <nav class="nav col">
+                <ul class="nav__list nav__list--primary">
+                    <li class="nav__item"><a class="nav__link" href="#">Home</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#">About</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#">Contact</a></li>
+                </ul>
+                <ul class="nav__list nav__list--secondary">
+                    <li class="nav__item"><a class="nav__link" href="#">Sign in</a></li>
+                    <li class="nav__item"><a class="nav__link btn" href="#">Sign up</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <!-- Main Starts -->
     <main>
         <!-- Section Hero starts -->
         <section class="hero">
-            <div class="row container">
-                <div class="col">
+            <div class="hero__container row container">
+                <div class="hero__col col-1">
                     <h1 class="hero__title">Responsive layouts <span class="hero__title--gold">don't have to be a struggle</span></h1>
                 </div>
-                <div class="col">
+                <div class="hero__col col-2">
                     <p class="hero__text text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                         incididunt ut labore et dolore magna aliqua</p>
                     <a class="hero__btn btn" href="#">I want to learn</a>
@@ -52,17 +54,17 @@
         <!-- Section Description starts -->
         <section class="description">
             <div class="row container">
-                <div class="col">
+                <div class="description__col">
                     <h4 class="description__title title">Mobile-first</h4>
                     <p class="description__text text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                         eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
                 </div>
-                <div class="col">
+                <div class="description__col">
                     <h4 class="description__title title">Efficient</h4>
                     <p class="description__text text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                         eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
                 </div>
-                <div class="col">
+                <div class="description__col">
                     <h4 class="description__title title">Done right</h4>
                     <p class="description__text text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                         eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
@@ -73,8 +75,8 @@
 
         <!-- Section In-depth starts -->
         <section class="in-depth">
-            <div class="container row">
-                <div class="col">
+            <div class="in-depth__container container">
+                <div class="in-depth__col-1">
                     <h3 class="in-depth__title title">It doesn't have to be so hard</h3>
                     <p class="text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -94,8 +96,8 @@
                         dolore magna aliqua. Ut enim ad minim veniam
                     </p>
                 </div>
-                <div class="col">
-                    <article class="card">
+                <div class="in-depth__card-container in-depth__col-2">
+                    <article class="card col">
                         <h3 class="card__title">Break it down</h3>
                         <div class="line"></div>
                         <p class="card__text text">
@@ -105,7 +107,7 @@
                             labore et dolore magna aliqua
                         </p>
                     </article>
-                    <article class="card">
+                    <article class="card col">
                         <h3 class="card__title">Work your way up</h3>
                         <div class="line"></div>
                         <p class="card__text text">
@@ -115,7 +117,7 @@
                             labore et dolore magna aliqua
                         </p>
                     </article>
-                    <article class="card">
+                    <article class="card col">
                         <h3 class="card__title">Example title</h3>
                         <div class="line"></div>
                         <p class="card__text text">

@@ -1,0 +1,15 @@
+.row {
+    justify-content: center;
+}
+
+.card {
+    /* flex-basis: content; */
+    /* max-width: 48%; */
+    margin-top: 0;
+}
+
+.in-depth__card-container {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+}

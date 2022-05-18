@@ -1,0 +1,112 @@
+.container {
+    width: 80%;
+}
+
+.row {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+/* Nav styles */
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    align-self: center;
+}
+
+.nav-toggle {
+    display: none;
+}
+
+.nav {
+    visibility: visible;
+    position: static;
+    height: auto;
+    width: auto;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.nav__list {
+    display: flex;
+    align-items: center;
+}
+
+.nav__item {
+    margin: 0;
+}
+
+.nav__item + .nav__item {
+    margin-left: 2rem;
+}
+
+.nav__list--secondary {
+    border: none;
+    width: auto;
+    margin-left: 3rem;
+}
+
+/* Hero styles */
+.hero__container {
+    padding: 8rem 0;
+}
+
+.hero__col {
+    width: 47%;
+}
+
+.hero__title {
+    font-size: 8rem;
+    line-height: 9rem;
+}
+
+.col-2 {
+    align-self: center;
+}
+
+.hero__text {
+    font-size: 2.3rem;
+    line-height: 3.4rem;
+    font-weight: 400;
+}
+
+/* Description styles */
+.description {
+    padding: 10rem 0;
+}
+
+.description__col {
+    text-align: center;
+    width: 30%;
+}
+
+.description__title {
+    margin-bottom: 1rem;
+}
+
+/* In-depth section */
+.in-depth__container {
+    display: flex;
+    gap: 3rem;
+}
+
+/* .in-depth__col-1 {
+    flex-grow: 4;
+}
+
+.in-depth__col-2 {
+    flex-grow: 2;
+} */
+
+.in-depth__card-container {
+    flex-direction: column;
+    /* width: 40%; */
+    margin-top: 0;
+}
